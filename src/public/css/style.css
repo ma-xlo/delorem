@@ -37,10 +37,13 @@ body{
     font-weight: bold;
     font-size: 18pt;
     text-align: center;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 89, 89);
     border: 1px solid rgb(204, 204, 204);
+    border-bottom: 3px solid rgb(128, 128, 128);
+
     outline: none;
 }
+
 ::placeholder{
     color: rgb(205, 205, 205);
 }
@@ -51,8 +54,8 @@ body{
     font-family: 'VT323', monospace;
     font-weight: bold;
     font-size: 18pt;
-    background-color:  rgb(185, 185, 185);
-    border: 1px solid rgb(185, 185, 185);
+    background-color:  rgb(205, 205, 205);
+    border: 1px solid rgb(205, 205, 205);
     transition: 0.4s ease-in-out;
 }
 .container button:hover{
@@ -77,9 +80,14 @@ body{
 .dummy-text-area{
     margin: auto;
     padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans',Arial,sans-serif;
     font-weight: 500;
-    font-size: 14pt;
+    font-size: 12pt;
     width: 70%;
     text-align: justify;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
 }

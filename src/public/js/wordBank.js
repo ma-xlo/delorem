@@ -1,4 +1,4 @@
-export const data = [
+const data = [
 	"lorem",
 	"ipsum",
 	"dolor",
@@ -9,6 +9,7 @@ export const data = [
 	"elit",
 	"nullam",
 	"accumsan",
+	"veni, vidi, vici",
 	"sapien",
 	"eu",
 	"vulputate",
@@ -27,6 +28,7 @@ export const data = [
 	"pellentesque",
 	"sagittis",
 	"augue",
+	"carpe diem",
 	"eros",
 	"commodo",
 	"hendrerit",
@@ -41,6 +43,7 @@ export const data = [
 	"lacus",
 	"bibendum",
 	"at",
+	"memento mori",
 	"elementum",
 	"leo",
 	"integer",
@@ -72,6 +75,7 @@ export const data = [
 	"nulla",
 	"gravida",
 	"nunc",
+	"deus ex machina",
 	"nec",
 	"blandit",
 	"consequat",
@@ -83,6 +87,7 @@ export const data = [
 	"quisque",
 	"vitae",
 	"lectus",
+	"memento vivere",
 	"feugiat",
 	"eleifend",
 	"orci",
@@ -102,7 +107,6 @@ export const data = [
 	"enim",
 	"mi",
 	"praesent",
-	"a",
 	"ornare",
 	"turpis",
 	"euismod",
@@ -110,6 +114,7 @@ export const data = [
 	"dictum",
 	"libero",
 	"pharetra",
+	"sine qua non",
 	"purus",
 	"placerat",
 	"magna",
@@ -134,6 +139,7 @@ export const data = [
 	"vivamus",
 	"odio",
 	"mollis",
+	"carpe noctem",
 	"sem",
 	"semper",
 	"pulvinar",
@@ -151,8 +157,6 @@ export const data = [
 	"dapibus",
 	"tortor",
 	"purus"
-]
+];
 
-
-
-
+export default data;

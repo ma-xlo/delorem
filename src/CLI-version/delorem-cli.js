@@ -2,11 +2,10 @@
 /* Author: ma-xlo                               */
 /* Version: 1.0                                 */
 /*----------------------------------------------*/
-
-import { data } from "./file.mjs";
+import data from './wordBank.js';
 import * as fs from 'fs';
-const MAX_RANGE = 151;
 
+const MAX_RANGE = 151;
 
 //Capitalize a word
 const capital = word => {
@@ -47,7 +46,7 @@ const paragraphGen = (p = 1) => {
     }
 }
 
-paragraphGen(5);
+paragraphGen(10);
 
 console.log("Your dummy text was generated!👋 ");
 

@@ -1,4 +1,4 @@
-export const data = [
+const data = [
 	"lorem",
 	"ipsum",
 	"dolor",
@@ -152,6 +152,9 @@ export const data = [
 	"tortor",
 	"purus"
 ]
+
+
+export default data;
 
 
 
