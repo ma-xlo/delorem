@@ -1,0 +1,17 @@
+{
+  "name": "delorem",
+  "version": "1.0.0",
+  "description": "Lorem Ipsum generator",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon app.js"
+  },
+  "author": "ma-xlo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
